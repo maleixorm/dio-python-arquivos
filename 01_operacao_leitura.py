@@ -1,3 +1,5 @@
 arquivo = open('lorem.txt', 'r')
-print(arquivo.read())
+# print(arquivo.read())
+# print(arquivo.readline())
+print(arquivo.readlines())
 arquivo.close()
